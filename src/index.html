@@ -48,6 +48,7 @@
     </div>
   </body>
   <script>
-    document.querySelector(".product").setAttribute("data-price");
+    let price = document.querySelector(".price").innerHTML;
+    document.querySelector(".product").setAttribute("data-price", price);
   </script>
 </html>
